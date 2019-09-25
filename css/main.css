@@ -40,7 +40,7 @@ h1 {
 
 .banner {
   background:
-    linear-gradient(rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)),
+    linear-gradient(rgba(16, 52, 41, 0) 50%, rgba(16, 52, 41, .8)),
     url("../images/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -51,8 +51,8 @@ h1 {
 .banner-content {
   background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
-  background-position: .2em;
-  background-size: 5em auto;
+  background-position: left;
+  background-size: 100px auto;
   color: #fff;
   padding-top: 300px;
 }
