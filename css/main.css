@@ -2,8 +2,16 @@ html {
   font-family: Lora, serif;
 }
 
-.masthead {
+h1 {
+  color: #fff;
+}
 
+.masthead {
+  background-color: #588477;
+  border-top: 2px solid #2d5a4d;
+  border-bottom: 2px solid #2d5a4d;
+  background-image: url("../images/leaf-bg.svg");
+  background-size: 64px auto;
 }
 
 .logo {
@@ -16,6 +24,9 @@ html {
 
 .nav a {
   text-decoration: none;
+  color: #fff;
+  background-color: #467366;
+  border: 3px solid #2d5a4d;
 }
 
 .nav a:hover {
